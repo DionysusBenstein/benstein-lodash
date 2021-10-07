@@ -19,10 +19,8 @@ function chunk(arr, sizeOfChunk) {
                 break;
             }
         }
-
         chunks.push(chunk);
     }
-
     return chunks;
 }
 
